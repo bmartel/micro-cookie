@@ -1,18 +1,24 @@
 {
-  "name": "micro-cookie",
+  "name": "@martel/micro-cookie",
   "version": "1.2.0",
   "description": "Parses out cookies in micro requests and populates req.cookies",
   "main": "index.js",
-  "author": "Zak Holt",
+  "author": "Brandon Martel<brandonmartel@gmail.com>",
+  "contributors": [
+    "Zak Holt"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Zakjholt/micro-cookie"
+    "url": "https://github.com/bmartel/micro-cookie"
   },
   "dependencies": {
-    "cookie": "^0.3.1"
+    "cookie": "^0.4.1"
   },
   "peerDependencies": {
-    "micro": "^7.1.0"
+    "micro": "^9.3.4"
   }
 }
